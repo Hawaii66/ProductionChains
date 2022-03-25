@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e019f9ccd6b649542ac67bda04871fb1, type: 3}
+  m_Name: WoodPickup
+  m_EditorClassIdentifier: 
+  type: 4
+  prefab: {fileID: 8365927923230753486, guid: 26f3516efba1db14e9ef357489de077a, type: 3}
+  footprint:
+  - x: 0
+    y: 0
+    z: 0
+  - x: 1
+    y: 0
+    z: 0
+  - x: 0
+    y: 0
+    z: 1
+  - x: 1
+    y: 0
+    z: 1
+  enterRoadOffsets:
+  - x: 2
+    y: 0
+    z: 0
+  - x: 0
+    y: 0
+    z: 2
+  buildingConnections:
+  - x: 2
+    y: 0
+    z: 0
+  - x: 0
+    y: 0
+    z: 2
+  insideConnections:
+  - outside:
+      x: 2
+      y: 0
+      z: 0
+    inside:
+      x: 1
+      y: 0
+      z: 0
+  - outside:
+      x: 0
+      y: 0
+      z: 2
+    inside:
+      x: 0
+      y: 0
+      z: 1
+  waypointsInside:
+  - inside:
+      x: 1
+      y: 0
+      z: 0
+    travelOut: 0
+    travelOutTile:
+      x: 0
+      y: 0
+      z: 0
+    points:
+    - {x: 9, y: 0, z: 1}
+    - {x: 1, y: 0, z: 1}
+    - {x: 1, y: 0, z: 4}
+  - inside:
+      x: 0
+      y: 0
+      z: 1
+    travelOut: 0
+    travelOutTile:
+      x: 0
+      y: 0
+      z: 0
+    points:
+    - {x: -1, y: 0, z: 9}
+    - {x: -1, y: 0, z: 4}
+  - inside:
+      x: 1
+      y: 0
+      z: 0
+    travelOut: 1
+    travelOutTile:
+      x: 2
+      y: 0
+      z: 0
+    points:
+    - {x: -1, y: 0, z: 4}
+    - {x: -1, y: 0, z: -1}
+    - {x: 9, y: 0, z: -1}
+  - inside:
+      x: 0
+      y: 0
+      z: 1
+    travelOut: 1
+    travelOutTile:
+      x: 0
+      y: 0
+      z: 2
+    points:
+    - {x: 1, y: 0, z: 4}
+    - {x: 1, y: 0, z: 9}

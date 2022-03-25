@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4cd44b495e7924cad4b0bd16938591, type: 3}
+  m_Name: LR
+  m_EditorClassIdentifier: 
+  mesh: {fileID: -2432090755550338912, guid: d1dbe109a78d51540bf674eed1638649, type: 3}
+  throughWaypoints:
+  - start: 0
+    end: 1
+    waypoints:
+    - {x: 3, y: 0, z: 1}
+    - {x: -3, y: 0, z: 1}
+  - start: 1
+    end: 0
+    waypoints:
+    - {x: -3, y: 0, z: -1}
+    - {x: 3, y: 0, z: -1}
+  enterRoad:
+  - direction: 0
+    waypoints:
+    - {x: 3, y: 0, z: 1}
+    - {x: 0, y: 0, z: 0}
+  - direction: 1
+    waypoints:
+    - {x: -3, y: 0, z: -1}
+    - {x: 0, y: 0, z: 0}
+  exitRoad:
+  - direction: 0
+    waypoints:
+    - {x: 0, y: 0, z: 0}
+    - {x: 3, y: 0, z: -1}
+  - direction: 1
+    waypoints:
+    - {x: 0, y: 0, z: 0}
+    - {x: -3, y: 0, z: 1}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e019f9ccd6b649542ac67bda04871fb1, type: 3}
+  m_Name: StonePickup
+  m_EditorClassIdentifier: 
+  type: 3
+  prefab: {fileID: 8365927923230753486, guid: 70e0ad82a24eed34da9b8f03c1e6c07c, type: 3}
+  footprint:
+  - x: 0
+    y: 0
+    z: 0
+  enterRoadOffsets:
+  - x: 0
+    y: 0
+    z: 1
+  buildingConnections:
+  - x: 0
+    y: 0
+    z: 1
+  insideConnections:
+  - outside:
+      x: 0
+      y: 0
+      z: 1
+    inside:
+      x: 0
+      y: 0
+      z: 0
+  waypointsInside:
+  - inside:
+      x: 0
+      y: 0
+      z: 0
+    travelOut: 0
+    travelOutTile:
+      x: 0
+      y: 0
+      z: 0
+    points:
+    - {x: -1, y: 0, z: 3}
+    - {x: -1, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+  - inside:
+      x: 0
+      y: 0
+      z: 0
+    travelOut: 1
+    travelOutTile:
+      x: 0
+      y: 0
+      z: 1
+    points:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 3}
